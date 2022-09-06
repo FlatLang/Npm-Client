@@ -1,0 +1,7 @@
+package flat/npm
+
+class {
+  public static main(String[] args) {
+
+  }
+}
