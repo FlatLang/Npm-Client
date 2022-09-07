@@ -29,4 +29,27 @@ class {
 
     return System.execute(args, workingDirectory, silent)
   }
+
+  public async install(
+    String packageName,
+    Bool: silent = false
+  ) => Npm.install(
+    packageName,
+    workingDirectory,
+    silent
+  )
+
+  public static async install(
+    String packageName,
+    String: workingDirectory = System.workingDirectory,
+    Bool: silent = false
+  ) -> ExecutionResponse {
+    let args = [
+      "npm",
+      "install",
+      packageName
+    ]
+
+    return System.execute(args, workingDirectory, silent)
+  }
 }
