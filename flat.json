@@ -10,7 +10,6 @@
   },
   "sources": {
     "main": {
-      "mainClass": "flat/npm/Npm",
       "source": "src",
       "dependencies": {
         "github:FlatLang/System": "master",
