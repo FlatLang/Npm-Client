@@ -1,6 +1,6 @@
 package flat/npm
 
-import flatlang/system/ExecutionResponse
+import flat/system/ExecutionResponse
 
 class {
   public construct(

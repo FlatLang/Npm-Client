@@ -2,8 +2,8 @@ package flat/npm
 
 import novex/nest/TestResult
 
-import flatlang/time/Timer
-import flatlang/io/FancyOutputStream
+import flat/time/Timer
+import flat/io/FancyOutputStream
 import flat/npm/Npm
 
 [TestSuite [
