@@ -3,9 +3,9 @@ package flat/npm
 import flat/npm/Npm
 
 testable class {
-  test `can create`() {
-    let value = Npm()
+    test `can create`() {
+        let value = Npm()
 
-    expect(value).toNotBe(null)
-  }
+        expect(value).toNotBe(null)
+    }
 }
